@@ -1,0 +1,15 @@
+Algorithm to solve even sum generator of a Fibonacci sequence
+1. Define the limit in this case it's four Million
+2. If the limit is 2 return 0 since there is no even terms in first two numbers
+3. Initialize the first two even numbers to begin with and add it and assign to sum
+4. Calculate the sum until the limit
+5. Calculate the next even number using F(n+1) = F(n) + F(n-1) .
+6. Return the sum
+ 
+Additional statements
+1. If the limit is taken as input function complexity is as:
+    Time complexity : O(n)
+    Space complexity : O(1)
+2. Test 
+    fibEvenSum() == 4613732 (for four Million limit)
+    Since there are no user input no error occurs
